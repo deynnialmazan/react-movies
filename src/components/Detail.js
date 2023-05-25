@@ -15,7 +15,6 @@ function Detail() {
         const movieArray = await axios.get(`https://api.andrespecht.dev/movie/${selectedMovie}`);
         const movieInfo  = movieArray.data.response;
         let genres = movieInfo.genre;
-        console.log(genres);
         setGenres(genres);
         setMovie(movieInfo);
 
