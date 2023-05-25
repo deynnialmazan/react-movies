@@ -9,7 +9,7 @@ function Header({ title='React Movies' }) {
             </div>
             <nav>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/react-movies">Home</Link></li>
                     <li><a href="#">Theatres</a></li>
                     <li><a href="#">About us</a></li>
                     <li><a href="#">My account</a></li>
