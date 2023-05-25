@@ -17,7 +17,7 @@ function App() {
           <Route exact path="/react-movies"  element= {<Catalog />} />
           <Route exact path="/movie/:selectedMovie" element= {<Detail />} />
           <Route exact path="/new" element= {<New />} />
-          <Route element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
       </Routes>
     </main>
     <Footer />
